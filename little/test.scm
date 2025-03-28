@@ -1,4 +1,5 @@
-#!/usr/local/bin/guile -L . -s 
+#!/usr/bin/env sh
+exec guile -L . -s "$0" "$@"
 !#
 
 (define-module (little test)
